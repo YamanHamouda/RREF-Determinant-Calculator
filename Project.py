@@ -2,7 +2,7 @@ import tkinter as tk
 import tkinter.font as tkFont
 
 
-class MyGUI
+class MyGUI:
 
     #constructor
     def __init__(self):
