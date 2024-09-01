@@ -7,7 +7,7 @@ A project that calculates a matrix's Row Reduced Echelon Form and Determinants
 - Determinant algorithm: This algorithm uses the RREF algorithm to multiply the starting determinant of 1 by what the rows get divided by. So if a pivot row gets divided by n then the determinant becomes 1*n. Additionally, if two rows are switched which each other, then the determinant switches signs. For example, n becomes -n. Lastly, if at any point the else statement that sees there are no pivots is run, it makes the determinant 0 as a matrix that is linearly dependent (doesn't have a pivot is all columns), has a determinant of 0
   
 - Linear Dependency: It is initialized as LinearlyIndependent = True, but if the else statement that sees there are no pivots is run, it makes linearlyIndependant = False.
-- 
+
 # Future Updates / Roadmap
 - Inverse matrix
 - Show the output on the GUI rather than just printing it
